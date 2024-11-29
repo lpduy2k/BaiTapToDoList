@@ -16,6 +16,7 @@ export const BaiTapToDoListReducer = (state = stateDefault,action) => {
             if (changeTheme){
                 state.themeToDoList = {...changeTheme.theme};
             }
+            //...
             return {...state}
         }
         case ADD_TASK:{
